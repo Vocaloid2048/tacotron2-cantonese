@@ -33,7 +33,7 @@ class create_hparams():
     load_mel_from_disk = False
     training_files = 'filelists/transcript_train.txt'
     validation_files = 'filelists/transcript_val.txt'
-    text_cleaners = ['japanese_cleaners']
+    text_cleaners = ['chinese_dialect_cleaners']
 
     ################################
     # Audio Parameters             #
